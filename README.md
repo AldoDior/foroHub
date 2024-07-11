@@ -1,50 +1,38 @@
-![fh rectsngular](https://github.com/Mianlo2386/ForoHub/assets/116380765/83ccca81-d324-4624-a8a9-80d749d7d79a)
-<h1>ForoHub</h1> 
+# ForoHub API
 
+ForoHub es una API RESTful desarrollada con Spring Boot que permite la gestión de tópicos (temas de discusión) en un foro. La API proporciona funcionalidades CRUD completas (Crear, Leer, Actualizar, Eliminar) para diferentes entidades, incluyendo tópicos, cursos, usuarios y respuestas.
 
+## Funcionalidades
 
-<h3>Descripción del Proyecto</h3>
+### Autenticación
+- **Login de usuarios:** Permite a los usuarios autenticarse en el sistema.
 
-ForoHub es una API REST desarrollada en Java Spring para gestionar un foro online. Permite a los usuarios realizar operaciones CRUD sobre los tópicos de discusión.
-Funcionalidades
+### Tópicos
+- **Crear un nuevo tópico:** Permite la creación de un nuevo tema de discusión.
+- **Listar todos los tópicos:** Devuelve una lista de todos los tópicos creados.
+- **Obtener un tópico específico:** Recupera la información de un tópico basado en su ID.
+- **Actualizar un tópico:** Permite la actualización de la información de un tópico existente.
+- **Eliminar un tópico:** Elimina un tópico específico del sistema.
 
-    Crear un nuevo tópico
-    Mostrar todos los tópicos creados
-    Mostrar un tópico específico
-    Actualizar un tópico existente
-    Eliminar un tópico de la base de datos
-    Crear usuarios
-    Mostrar usuarios
-    Mostrar detalle de usuario específico
-    Actualizar usuarios
-    Eliminar usuarios
-    Responder tópicos
-    Mostrar respuestas
-    Autorizar usuarios
-    Autenticar usuarios
+### Cursos
+- **Registrar un nuevo curso:** Permite la creación de un nuevo curso.
+- **Listar todos los cursos:** Devuelve una lista de todos los cursos registrados.
+- **Obtener un curso específico:** Recupera la información de un curso basado en su ID.
+- **Actualizar un curso:** Permite la actualización de la información de un curso existente.
+- **Eliminar un curso:** Elimina un curso específico del sistema.
 
-<h3>Tecnologias utilizadas</h3>
+### Usuarios
+- **Registrar un nuevo usuario:** Permite la creación de un nuevo usuario.
+- **Listar todos los usuarios:** Devuelve una lista de todos los usuarios registrados.
+- **Obtener un usuario específico:** Recupera la información de un usuario basado en su ID.
+- **Actualizar un usuario:** Permite la actualización de la información de un usuario existente.
+- **Eliminar un usuario:** Elimina un usuario específico del sistema.
 
-    Java Spring Framework
-    MYSql: Base de datos relacional (configurable según tu elección)
-    JSON Web Token (JWT) para autenticación y autorización
+### Respuestas
+- **Registrar una nueva respuesta:** Permite la creación de una nueva respuesta a un tópico.
+- **Listar todas las respuestas:** Devuelve una lista de todas las respuestas registradas.
+- **Obtener una respuesta específica:** Recupera la información de una respuesta basada en su ID.
+- **Actualizar una respuesta:** Permite la actualización de la información de una respuesta existente.
+- **Eliminar una respuesta:** Elimina una respuesta específica del sistema.
 
-<h3>Estado del proyecto</h3>
-
-🚧 Completo 🚧
-Instalación y Uso
-
-    Clona este repositorio.
-    Configura tu base de datos y ajusta las configuraciones de conexión en application.properties.
-    Por seguridad usa variables de entorno.
-    Compila y ejecuta la aplicación Spring Boot.
-
-
-
-<h4>Contribuyentes</h4>
-
-   Miguel Lopez - Desarrollador principal
-
-<h4>Licencias</h4>
-
-Este proyecto está bajo la licencia MIT - ver el archivo LICENSE para más detalles.
+ForoHub facilita la interacción y gestión de un foro de discusión de manera eficiente y organizada, ofreciendo una robusta estructura de API para manejar múltiples entidades y operaciones.
